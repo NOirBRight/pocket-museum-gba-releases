@@ -1,0 +1,44 @@
+{
+  "manifest_version": 1,
+  "repository": "NOirBRight/pocket-museum-gba-releases",
+  "release_tag": "content-catalog-10-cheats-4",
+  "apk": null,
+  "packs": {
+    "catalog": {
+      "schema_version": 1,
+      "data_version": 10,
+      "notes": {
+        "zh": "目录数据包，结构版本 1、数据版本 10。完整包，没有差分。",
+        "en": "Catalog pack, schema 1 / data 10. Full file, no delta."
+      },
+      "catalog_base": null,
+      "full": {
+        "name": "catalog.sqlite",
+        "url": "https://github.com/NOirBRight/pocket-museum-gba-releases/releases/download/content-catalog-10-cheats-4/catalog.sqlite",
+        "size_bytes": 4399104,
+        "sha256": "33895899c8cbf3ebd11955cae9b8f310d604e538292a8ddd1f8cfe685ac1dd8b"
+      },
+      "deltas": []
+    },
+    "media": null,
+    "cheats": {
+      "schema_version": 1,
+      "data_version": 4,
+      "notes": {
+        "zh": "金手指数据包，结构版本 1、数据版本 4；目录依据为结构 1、数据版本 5。完整包，没有差分。不替换用户自建金手指。",
+        "en": "Cheat pack, schema 1 / data 4, built against catalog schema 1 / data 5. Full file, no delta. It does not replace cheats you created."
+      },
+      "catalog_base": {
+        "schema_version": 1,
+        "data_version": 5
+      },
+      "full": {
+        "name": "cheats.sqlite",
+        "url": "https://github.com/NOirBRight/pocket-museum-gba-releases/releases/download/content-catalog-10-cheats-4/cheats.sqlite",
+        "size_bytes": 43372544,
+        "sha256": "e69765791a12493a95ee24cd27a186df516053697e7313fb86b1e0d64d905027"
+      },
+      "deltas": []
+    }
+  }
+}
